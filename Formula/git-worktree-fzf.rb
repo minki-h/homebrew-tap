@@ -1,10 +1,10 @@
 class GitWorktreeFzf < Formula
   desc "Interactive Git worktree manager powered by fzf"
   homepage "https://github.com/minki-h/git-worktree-fzf"
-  url "https://github.com/minki-h/git-worktree-fzf/archive/v1.3.4.tar.gz"
-  sha256 "2f2616ade1b35b7824e4b1cc33aec5d8da307aae4ff621d314618489638cbd02"
+  url "https://github.com/minki-h/git-worktree-fzf/archive/v1.3.5.tar.gz"
+  sha256 "c1a2b74ab7037da9d8aa839b0a97bd3d37d63a08bc81a1a4a3ccd20d0029520d"
   license "MIT"
-  version "1.3.4"
+  version "1.3.5"
 
   depends_on "fzf" => :recommended
 
