@@ -18,14 +18,7 @@ class GitWorktreeFzf < Formula
     <<~EOS
       To enable directory switching, add this to your shell config:
 
-      gwf() {
-        local result=$(command gwf "$@")
-        if [[ "$result" == CD:* ]]; then
-          cd "${result#CD:}"
-        else
-          echo "$result"
-        fi
-      }
+      eval "$(gwf shell-init)"
     EOS
   end
 
